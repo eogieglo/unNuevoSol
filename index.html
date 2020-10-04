@@ -2,6 +2,18 @@
 <html lang="en">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-P4NPLVB');</script>
+    <!-- End Google Tag Manager -->
+
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
@@ -27,22 +39,46 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
     <style>
-        .titulo-padding{
+        .titulo-padding {
             padding-top: 2rem;
         }
 
         body {
-            font-family: 'Open Sans', 'Times New Roman', Times, serif, sans-serif;;
+            font-family: 'Open Sans', 'Times New Roman', Times, serif, sans-serif;
+            ;
         }
 
+        .button-donar {
+            font-size: 0.9rem;
+            padding: 0.05rem 1.5rem;
+            border-radius: 20px;
 
+        }
     </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179000485-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179000485-1');
+    </script>
 </head>
 
 <body id="page-top">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4NPLVB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
         <div class="container">
@@ -60,6 +96,14 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger nav-mobile2" href="#fotos">Fotos</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger nav-mobile2" href="#contact">Contacto</a>
                     </li>
+                    <li class="nav-item">
+
+
+                        <a class="nav-link js-scroll-trigger nav-mobile2" href="#donar" target="_blank">
+                            <button type="button" class="btn btn-primary button-donar"> Donar</button></a>
+
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -85,7 +129,7 @@
                         de los niños y la falta de gratuidad en el servicio, fueron motivaciones
                         suficientes para decidir ocuparnos en vez de preocuparnos. </p>
 
-                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Contáctanos</a>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#donar">Donar</a>
                 </div>
             </div>
         </div>
@@ -132,8 +176,7 @@
                 <div>
                     <!-- img-fluid -->
                     <img data-aos="fade-up" data-aos-duration="2000" class=" img-row2"
-                        src="assets/img/galeria/fullsize/lugar.jpg" alt="Italian Trulli" width="400px"
-                        height="300px">
+                        src="assets/img/galeria/fullsize/lugar.jpg" alt="Italian Trulli" width="400px" height="300px">
 
                 </div>
 
@@ -180,8 +223,7 @@
 
                     <!-- data-aos="fade-left" data-aos-duration="2000" -->
                     <img data-aos="fade-up" data-aos-duration="2000" class="img-row2"
-                        src="assets/img/galeria/fullsize/equipo.jpg" alt="Italian Trulli" width="400px"
-                        height="300px">
+                        src="assets/img/galeria/fullsize/equipo.jpg" alt="Italian Trulli" width="400px" height="300px">
 
                 </div>
 
@@ -198,8 +240,7 @@
             <div class="row no-gutters">
                 <div class="col-lg-4 col-sm-6">
                     <a class="portfolio-box" href="assets/img/galeria/fullsize/taller1.jpg">
-                        <img class="img-fluid"
-                            src="assets/img/galeria/thumbnails/taller1.jpg" alt="" />
+                        <img class="img-fluid" src="assets/img/galeria/thumbnails/taller1.jpg" alt="" />
                         <div class="portfolio-box-caption">
                             <div class="project-category text-white-50">Categoria</div>
                             <div class="project-name">Taller 1</div>
@@ -320,6 +361,15 @@
         </div>
     </div>
 
+    <div class="jumbotron jumbotron-fluid" id="donar">
+        <div class="container">
+            <h1 class="display-4">Por favor, compartí y ayudanos a ayudar!</h1>
+            <p class="lead">Doná con <a target="_blank"
+                    href="https://www.donaronline.org/fundacion-beatriz-ramseyer-argentina/necesitamos-tu-ayuda-hoy-te-sumas">
+                    <strong> Mercado Pago </strong></a> o por <a target="_blank"
+                    href="https://www.fundacionramseyer.org.ar/donar/transferencia">transferencia bancaria</a>.</p>
+        </div>
+    </div>
 
 
 
@@ -338,7 +388,13 @@
                         La Paz, Transasierra, Pcia. de Cordoba CP 5879
                     </p>
                 </div>
+
+                <div class="col-lg-4 mr-auto text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1090.31310966286!2d-65.04204220317256!3d-32.203531415047884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2df4ff95a68af%3A0x25d066a5670cc4ee!2sCentro%20Educativo%20Terap%C3%A9utico%20%22Un%20nuevo%20sol%22!5e1!3m2!1ses-419!2sar!4v1601257963535!5m2!1ses-419!2sar" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
             </div>
+
+
             <div class="row">
                 <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
                     <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
@@ -349,6 +405,9 @@
 
                     </div>
 
+                    
+
+
                     <!-- <div>+1 (555) 123-4567</div> -->
                 </div>
                 <div class="col-lg-4 mr-auto text-center">
@@ -358,8 +417,10 @@
                 </div>
 
                 <div class="col-lg-4 mr-auto text-center ">
-                    <a href="https://www.facebook.com/cetunnuevosol/" target="_blank" ><i class="fab fa-facebook fa-3x mb-3 text-muted" style="padding-right: 8px;"></i></a>
-                    <a href="https://www.instagram.com/cetunnuevosol/" target="_blank" ><i class="fab fa-instagram fa-3x mb-3 text-muted"></i></a>
+                    <a href="https://www.facebook.com/cetunnuevosol/"><i class="fab fa-facebook fa-3x mb-3 text-muted"
+                            style="padding-right: 8px;"></i></a>
+                    <a href="https://www.instagram.com/cetunnuevosol/"><i
+                            class="fab fa-instagram fa-3x mb-3 text-muted"></i></a>
                     <!-- <i class="fas fa-itunes fa-3x mb-3 text-muted"></i> -->
                     <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
 
@@ -368,6 +429,7 @@
                     <!-- <a class="d-block" href="mailto:contact@yourwebsite.com">info@unnuevosol.org.ar</a> -->
 
                 </div>
+
             </div>
         </div>
     </section>
